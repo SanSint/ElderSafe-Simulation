@@ -10,7 +10,8 @@ The system analyzes temperature, humidity, and CO₂ levels to determine safe, w
 It integrates both real and simulated data (SML2010 dataset + synthetic samples) to trigger alerts for unsafe conditions.
 
 
-Features
+
+- Features
  
 Hybrid dataset (real + synthetic) integration
 
@@ -23,7 +24,8 @@ Python-based processing compatible with Google Colab
 Ready for extension with ML or cloud IoT platforms
 
 
-Requirements
+
+- Requirements
 
 Library	Version	Description
 
@@ -41,11 +43,13 @@ google.colab	–	Colab runtime support
 Install with:
 pip install pandas numpy matplotlib
 
--Files
+
+- Files
 
 ElderSafeAlertLogic.ipynb – main Colab notebook with code
 
 NEW-DATA-1.T15.txt – input dataset (upload before running notebook)
+
 
 
 - How to Run (on Google Colab)
